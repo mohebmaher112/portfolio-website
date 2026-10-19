@@ -35,39 +35,39 @@ const certificatesData = [
         id: 'cert-1',
         title: 'DECI Level 2',
         issuer: 'Digital Egypt Cubs Initiative (DECI)',
-        image: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=800&q=80',
-        date: '2022',
+        image: 'assets/1st.png',
+        date: '2023',
         description: 'Core IT & Programming Fundamentals: Covers computational thinking, algorithmic problem solving, binary logic, and foundational programming architectures.'
     },
     {
         id: 'cert-2',
         title: 'DECI Level 3 - Web Development Track',
         issuer: 'Digital Egypt Cubs Initiative (DECI)',
-        image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80',
-        date: '2023',
+        image: 'assets/2nd.png',
+        date: '2024',
         description: 'Advanced HTML, CSS, JavaScript & Responsive Web Design: Hands-on training in building interactive, cross-device web application user interfaces.'
     },
     {
         id: 'cert-3',
         title: 'GDG - Web Development Track',
         issuer: 'Google Developer Groups (GDG)',
-        image: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80',
-        date: '2024',
+        image: 'assets/3rd.png',
+        date: '2026',
         description: 'Modern Web Technologies, Frontend Development & Interactive Applications: Intensive technical track focusing on modern DOM workflows, modern web tools, and performant web interfaces.'
     }
 ];
 
 // Technical Skills
 const skillsData = [
-    { name: 'HTML5 & CSS3', level: 95, icon: 'fa-brands fa-html5', color: 'text-orange-500' },
-    { name: 'JavaScript ES6+', level: 90, icon: 'fa-brands fa-js', color: 'text-yellow-400' },
-    { name: 'Tailwind CSS', level: 90, icon: 'fa-brands fa-css3-alt', color: 'text-cyan-400' },
-    { name: 'C++ Systems & OOP', level: 85, icon: 'fa-solid fa-code', color: 'text-blue-400' },
-    { name: 'SQL & Database Design', level: 88, icon: 'fa-solid fa-database', color: 'text-purple-400' },
-    { name: 'Python & Data Science', level: 82, icon: 'fa-brands fa-python', color: 'text-emerald-400' },
-    { name: 'Canva Design', level: 92, icon: 'fa-solid fa-pen-nib', color: 'text-pink-400' },
-    { name: 'Adobe Photoshop', level: 80, icon: 'fa-solid fa-image', color: 'text-indigo-400' },
-    { name: 'UI/UX Wireframing', level: 85, icon: 'fa-solid fa-layer-group', color: 'text-amber-400' },
+    { name: 'HTML5', level: 99, icon: 'fa-brands fa-html5', color: 'text-orange-500' },
+    { name: 'JavaScript ES6+', level: 80, icon: 'fa-brands fa-js', color: 'text-yellow-400' },
+    { name: 'CSS3', level: 97, icon: 'fa-brands fa-css3-alt', color: 'text-cyan-400' },
+    { name: 'C++ Systems & OOP', level: 77, icon: 'fa-solid fa-code', color: 'text-blue-400' },
+    { name: 'SQL & Database Design', level: 80, icon: 'fa-solid fa-database', color: 'text-purple-400' },
+    { name: 'Python & Data Science', level: 72, icon: 'fa-brands fa-python', color: 'text-emerald-400' },
+    { name: 'Canva Design', level: 99, icon: 'fa-solid fa-pen-nib', color: 'text-pink-400' },
+    { name: 'Adobe Photoshop', level: 87, icon: 'fa-solid fa-image', color: 'text-indigo-400' },
+    { name: 'UI/UX', level: 82, icon: 'fa-solid fa-layer-group', color: 'text-amber-400' },
 ];
 
 // Persistent App State
